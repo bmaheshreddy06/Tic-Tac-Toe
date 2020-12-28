@@ -1,0 +1,16 @@
+import random
+
+while True:
+
+   ans=input("do you want to roll the dice y/n ?").lower()
+
+   if ans=="y": 
+
+       dice1=random.randint(1,6)
+
+       print("your nummber is",dice1)
+
+   elif ans=="n":
+
+       print("Thanks for Playing, have a nice day")  
+       break
